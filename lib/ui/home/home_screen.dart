@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
   List<Widget> tabs = [
     QuranTab(),
     const HadethTab(),
-     const TasbihTab(),
+    TasbihTab(),
     const RadioTab(),
     const SettingsTab(),
   ];
@@ -37,7 +37,10 @@ class _HomeScreenState extends State<HomeScreen> {
               fit: BoxFit.fill)),
       child: Scaffold(
         appBar: AppBar(
-          title:  Text('Islami',style: Theme.of(context).textTheme.titleLarge,),
+          title: Text(
+            'Islami',
+            style: Theme.of(context).textTheme.titleLarge,
+          ),
         ),
         bottomNavigationBar: BottomNavigationBar(
           onTap: (selected) {
