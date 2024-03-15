@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class MyThemeData {
   static const Color primaryDark = Color(0xff141A2E);
-  static const Color secondaryDark = Color(0xffFACC1D);
+  static const Color secondaryDark = Color(0x80facc1d);
   static const Color primaryLight = Color(0xffB7935F);
   static ThemeData lightMode = ThemeData(
     cardTheme:const CardTheme(
